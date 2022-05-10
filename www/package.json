@@ -1,0 +1,13 @@
+{
+  "name": "node-cs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev0": "node ./app.js",
+    "dev": "cross-env NODE_ENV=develop ERRORLOG=1 ACCESSLOG=0  DEBUGINFO=1  node ./app.js"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
